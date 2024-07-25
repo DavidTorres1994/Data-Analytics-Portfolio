@@ -8,5 +8,5 @@ Soy David Torres, un ingeniero industrial interesado en el análisis datos para 
 - **Descripción:** Generar un Data Warehouse junto con un proceso de ETL para tener una infraestructura que permita ampliar mas casos de uso y ademas ingerir datos de forma sistemica.
 - **Herramientas:** PostgreSQL
 - **Resumen:**
-  - Utilicé Pandas para limpiar y manipular los datos.
-  - Visualizaciones creadas con Matplotlib y Seaborn para identificar tendencias.
+  - 
+  - 
