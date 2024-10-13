@@ -5,12 +5,12 @@ para el análisis de los comportamientos de usuarios. Se usa Sql que es una herr
 grandes volúmenes de datos, dado que al considerar la data de un año completo se encuentra un valor 
 cercano a cinco millones setecientos mil registros. A continuación, se hace documentación de todas las
 limpiezas y manipulaciones de datos.*/
-## 1. Creación y Carga de Datos
-### Objetivo
-#### -Crear tablas para cada mes desde septiembre de 2023 a agosto de 2024. Se utiliza el nombre de la 
-#### tabla _202408_divvy_tripdata como plantilla, cambiando el mes y año según corresponda. Se cargarán 
-#### los datos de cada archivo CSV en su respectiva tabla.
--- Crear la tabla para almacenar los datos de trips
+-- 1. Creación y Carga de Datos
+-- Objetivo
+/* -Crear tablas para cada mes desde septiembre de 2023 a agosto de 2024. Se utiliza el nombre de la 
+    tabla _202408_divvy_tripdata como plantilla, cambiando el mes y año según corresponda. Se cargarán 
+    los datos de cada archivo CSV en su respectiva tabla.*/
+--Crear la tabla para almacenar los datos de trips
 create table if not exists public._202408_divvy_tripdata
                  (ride_id      VARCHAR(255), rideable_type   VARCHAR(30), started_at     Timestamp
 				  , ended_at      Timestamp, start_station_name VARCHAR(255), start_station_id   VARCHAR(255)
@@ -24,14 +24,14 @@ from '/Program Files/PostgreSQL/16rc1/data/202408-divvy-tripdata.csv'
 delimiter ','
 csv header;   
 
-### Nota: El código de creación y carga se repetirá para cada mes, cambiando el nombre de la tabla y 
-### el archivo CSV correspondiente. El formato utilizado para la fecha sería el YYYY-MM-DD HH:MM:SS de Timestamp.
+/* Nota: El código de creación y carga se repetirá para cada mes, cambiando el nombre de la tabla y 
+   el archivo CSV correspondiente. El formato utilizado para la fecha sería el YYYY-MM-DD HH:MM:SS de Timestamp.*/
 
 
-## 2. Consolidación de tablas 
-### Objetivo
-#### -Unir datos de múltiples tablas de trips en una tabla consolidada _202309_to_202408_divvy_tripdata.
--- Unir datos de varios meses en una sola tabla usando CTEs y UNION ALL
+-- 2. Consolidación de tablas 
+-- Objetivo
+/* -Unir datos de múltiples tablas de trips en una tabla consolidada _202309_to_202408_divvy_tripdata.
+   -Unir datos de varios meses en una sola tabla usando CTEs y UNION ALL */
 create table public._202309_to_202408_divvy_tripdata as
 
 with _202309_to_202310_divvy_tripdata as (select ride_id, rideable_type, started_at, ended_at, start_station_name
@@ -129,12 +129,12 @@ select ride_id, rideable_type, started_at, ended_at, start_station_name, start_s
 from _202407_to_202408_divvy_tripdata          
 where (extract(EPOCH from (ended_at - started_at)) / 60)>0
 order by started_at
-### Nota: la tabla se ordena por la fecha de inicio de cada viaje y para garantizar consistencia en los 
+/* Nota: la tabla se ordena por la fecha de inicio de cada viaje y para garantizar consistencia en los 
 tiempos se crean dos columnas denominadas “ride_length” y “day_of_week”. La primera calcula la 
 diferencia entre la columna ended_at y started_at en minutos y con esta se filtra los resultados mayores a cero 
 para garantizar que se cree una tabla con registros donde ride_length tiene valores positivos. La
 columna day_of_week nos extrae de la fecha started_at el número de día de la semana en donde 1 es 
-domingo y 7 es sábado.
+domingo y 7 es sábado.*/
 -- Se crea una copia de respaldo de la tabla consolidada 
 /*
 create schema if not exists bkp;
@@ -147,11 +147,11 @@ drop table if exists public._202309_to_202408_divvy_tripdata
 create public._202309_to_202408_divvy_tripdata AS
 select *
 from bkp._202309_to_202408_divvy_tripdata_20240920 */
-## 3. Limpieza de la tabla consolidada
-### Objetivo
-#### -Eliminar espacios en blanco en los valores de las columnas de tipo texto.
-#### -Identificar y eliminar  duplicados.  
-#### -Corregir inconsistencias en coordenadas de estaciones y rellenar valores nulos.
+-- 3. Limpieza de la tabla consolidada
+-- Objetivo
+/* -Eliminar espacios en blanco en los valores de las columnas de tipo texto.
+   -Identificar y eliminar  duplicados.  
+   -Corregir inconsistencias en coordenadas de estaciones y rellenar valores nulos. */
 /* Eliminar espacios en blanco de cada una de las columnas de tipo texto o varchar para evitar errores 
 en la comparación de strings */
 update public._202309_to_202408_divvy_tripdata
@@ -302,7 +302,6 @@ where
     ROUND(t.end_lat, 2) = ac.rounded_end_lat  -- Comparamos con las columnas redondeadas
     and ROUND(t.end_lng, 2) = ac.rounded_end_lng
     and t.end_station_name is NULL;  -- Solo actualiza si el nombre de la estación es NULL
-/*Nota: Con el anterior procedimiento se lograr disminuir la cantidad de registros con datos nulos, 
-pasando de una cantidad de aproximadamente un millón de registros a siete mil quinientos setenta con 
-datos nulos, referente a valores duplicados se eliminan doscientos nueve registros de la tabla. Con lo anterior se 
-en gran medida limpiar los datos para proceder a analizar.*/
+/*Nota: Con el procedimiento anterior, se logró reducir la cantidad de registros con datos nulos, pasando de aproximadamente 
+un millón a siete mil quinientos setenta. Además, se eliminaron doscientos nueve registros duplicados de la tabla. Estos pasos 
+permitieron limpiar significativamente los datos, lo que facilita el análisis posterior.*/
