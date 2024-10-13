@@ -1,8 +1,8 @@
 # Data-Analytics-Portfolio-David
-## About Me
+## Sobre mi
 Soy David Torres, ingeniero industrial con gran interés en el análisis de datos para convertirlos en información valiosa que facilite la toma de decisiones estratégicas en áreas de negocio. Tengo experiencia en el uso de Power BI para la creación de dashboards de ventas y control de gastos, así como conocimientos en SQL, aplicados en proyectos como el desarrollo de un Data Warehouse en PostgreSQL.
 
-## Projects
+## Proyectos
 
 ### 1. Caso Práctico: Análisis de Usuarios para Cyclistic
 - **Descripción:** Este caso práctico analiza las diferencias en el comportamiento entre usuarios ocasionales y miembros anuales de Cyclistic, con el fin de diseñar estrategias de marketing que conviertan ciclistas ocasionales en miembros anuales.
