@@ -9,12 +9,12 @@ Convertir al menos el 30% de los usuarios ocasionales en miembros anuales en el 
 - **Power BI**: Creación de dashboards y visualizaciones.
 
 ## Hallazgos Clave
-- Los usuarios ocasionales alcanzan su pico de viajes en julio, mientras que los miembros anuales lo hacen en agosto.
-- Ambos grupos presentan picos de actividad a las 5 p.m., pero los miembros anuales también a las 8 a.m.
-- La duración promedio de los viajes es mayor para los usuarios ocasionales (26 minutos).
+- Los ciclistas ocasionales son más activos en julio y fines de semana, mientras que los miembros anuales lo hacen en agosto y son más activos entre semana.
+- Ambos grupos presentan picos de actividad a las 5 p.m., pero los miembros anuales tienen un segundo pico a las 8 a.m.
+- La duración de los viajes es mayor los fines de semana para ambos tipos de usuario, pero la duración promedio de los viajes es mayor para los usuarios ocasionales (26 minutos).
 
 ## Recomendaciones
-1. Ofrecer membresías temporales durante el verano y fines de semana.
+1. Ofrecer membresías temporales de prueba durante el verano y fines de semana.
 2. Campañas de comparación de costos entre viajes ocasionales y membresías anuales.
 3. Combinar la membresía anual con descuentos en transporte público y servicios locales.
 
