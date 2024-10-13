@@ -1,6 +1,6 @@
 # Data-Analytics-Portfolio-David
 ## About Me
-Soy David Torres, un ingeniero industrial interesado en el análisis datos para transformar los datos en información valiosa que permita tomar mejores decisiones en las areas de negocio. Tengo experiencia en power bi en la creación de dashboards de ventas y gastos y conocimientos en sql aplicados en proyectos como el desarrollo de un Data Warehouse en sql postgre.
+Soy David Torres, ingeniero industrial con alto interes en el análisis datos para transformarlos en información valiosa que permita tomar mejores decisiones en las areas de negocio. Tengo experiencia en herramientas como power bi en la creación de dashboards de ventas y gastos y conocimientos en sql aplicados en proyectos como el desarrollo de un Data Warehouse en sql postgre.
 
 ## Projects
 
