@@ -19,4 +19,4 @@ Convertir al menos el 30% de los usuarios ocasionales en miembros anuales en el 
 3. Combinar la membresía anual con descuentos en transporte público y servicios locales.
 
 ## Visualizaciones
-![Distribución de Viajes](visuals/monthly_trips.png)
+![Distribución de Viajes](Cantidad de viajes por tipo de usuario.jpg)
