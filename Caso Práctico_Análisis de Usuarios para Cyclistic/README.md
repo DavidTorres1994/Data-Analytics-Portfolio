@@ -20,10 +20,8 @@ Convertir al menos el 30% de los usuarios ocasionales en miembros anuales en el 
 
 ## Visualizaciones
 ![Distribución de Viajes](visuals/Cantidad%20de%20viajes%20por%20tipo%20de%20usuario.jpg)
-
 ![Distribución de Viajes2](visuals/Cantidad%20de%20viajes%20por%20tipo%20de%20usuario%20en%20cada%20Año-Mes.jpg)
 ![Distribución de Viajes3](visuals/Cantidad%20de%20viajes%20por%20tipo%20de%20usuario%20en%20cada%20semana.jpg)
 ![Distribución de Viajes4](visuals/Cantidad%20de%20viajes%20por%20tipo%20de%20usuario%20en%20cada%20hora%20del%20día.jpg)
 ![Promedio de Viajes](visuals/Promedio%20de%20duración%20del%20recorrido%20en%20minutos%20por%20tipo%20de%20usuario.jpg)
-
 ![Promedio de Viajes2](visuals/Promedio%20de%20duración%20del%20recorrido%20en%20minutos%20por%20tipo%20de%20usuario.jpg)
