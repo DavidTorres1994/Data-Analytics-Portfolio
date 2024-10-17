@@ -2,7 +2,7 @@
 Este proyecto tiene como objetivo analizar las diferencias entre ciclistas ocasionales y miembros anuales para diseñar estrategias que impulsen la conversión.
 
 ## Objetivo del Proyecto
-Convertir al menos el 30% de los usuarios ocasionales en miembros anuales en el proximo año mediante estrategias de marketing basadas en patrones de uso.
+Convertir al menos el 30% de los usuarios ocasionales en miembros anuales durante el proximo año mediante estrategias de marketing basadas en patrones de uso.
 
 ## Herramientas Utilizadas
 - **SQL**: Limpieza y análisis de datos.
