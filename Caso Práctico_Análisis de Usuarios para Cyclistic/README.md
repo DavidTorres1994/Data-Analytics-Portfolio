@@ -1,7 +1,7 @@
 # Caso Práctico: Análisis de Usuarios de Cyclistic  
 
 ## Descripción
-Este caso práctico analiza las diferencias en el comportamiento entre usuarios ocasionales y miembros anuales de Cyclistic, con el fin de diseñar estrategias de marketing que conviertan ciclistas ocasionales en miembros anuales.
+Este caso práctico analiza las diferencias en el comportamiento entre usuarios ocasionales y miembros anuales de Cyclistic, con el fin de diseñar estrategias de marketing que conviertan ciclistas ocasionales en miembros anuales. Se analizan los datos históricos de viajes en bicicleta de Cyclistic para encontrar conocimiento que conlleve a tomar decisiones basadas en datos. Los interesados clave son la gerente de marketing Lily Moreno quien establece la meta a cumplir, el equipo de análisis computacional de datos de marketing de Cyclistic quienes recopilan, analizan e informan datos que ayudan a conducir la estrategia de marketing de Cyclistic y el equipo ejecutivo de Cyclistic quienes aprueban el programa de marketing recomendado.
 
 ## Objetivo del Proyecto
 Identificar patrones de comportamiento de los miembros anuales y los ciclistas ocasionales durante el último año. Con esta información, se propondrán estrategias de marketing orientadas a convertir a los ciclistas ocasionales en miembros anuales en un 30% en todo el próximo año.
