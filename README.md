@@ -5,6 +5,6 @@ Soy David Torres, ingeniero industrial con gran interés en el análisis de dato
 ## Proyectos
 
 ### 1. [Caso Práctico: Análisis de Usuarios de Cyclistic](Caso%20Práctico_Análisis%20de%20Usuarios%20para%20Cyclistic)
-### 2. Retail Data - Warehouse
+### 2. [Retail Data - Warehouse](Retail%20-%20Data%20-Warehouse)
 - **Descripción:** Generar un Data Warehouse junto con un proceso de ETL para tener una infraestructura que permita ampliar mas casos de uso y ademas ingerir datos de forma sistemica.
 - **Herramientas:** PostgreSQL
