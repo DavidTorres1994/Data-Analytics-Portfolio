@@ -63,7 +63,7 @@ El dashboard permite analizar:
 - actividades que generan mayor costo (análisis tipo Pareto)
 - equipos subutilizados
 
-![Dashboard](images/dashboard_preview.png)
+
 
 ---
 
