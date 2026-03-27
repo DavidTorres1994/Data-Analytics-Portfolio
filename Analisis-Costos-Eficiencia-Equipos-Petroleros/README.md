@@ -1,5 +1,9 @@
 # Análisis de costos y eficiencia operativa en mantenimiento de equipos petroleros
 
+Dashboard desarrollado para analizar los costos asociados al proceso de alistamiento de equipos utilizados en operaciones petroleras.
+
+![Dashboard](images/dashboard_preview.png)
+
 ## Descripción del proyecto
 
 Este proyecto analiza los costos asociados al proceso de alistamiento y mantenimiento de equipos utilizados en operaciones petroleras.
@@ -87,15 +91,17 @@ El dashboard permite:
 
 ## Estructura del repositorio
 
+```
 analisis-costos-mantenimiento-equipos
 │
 ├── dashboard
-│ └── alquiser_dashboard.pbix
-
+│   └── alquiser_dashboard.pbix
+│
 ├── images
-│ └── dashboard_preview.png
-
+│   └── dashboard_preview.png
+│
 └── README.md
+```
 
 ---
 
