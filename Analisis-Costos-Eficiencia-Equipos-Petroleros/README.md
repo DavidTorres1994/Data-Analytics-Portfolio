@@ -170,6 +170,13 @@ analisis-costos-mantenimiento-equipos
 
 ---
 
+## Nota
+
+Los datos utilizados en este proyecto han sido anonimizados y agregados con fines educativos y de portafolio.  
+El objetivo es mostrar el proceso de análisis y visualización de datos sin divulgar información confidencial de ninguna empresa.
+
+---
+
 ## Autor
 
 David Torres Quintero
