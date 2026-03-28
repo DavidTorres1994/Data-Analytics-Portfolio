@@ -14,7 +14,7 @@ El objetivo del análisis es proporcionar visibilidad sobre:
 
 - Costos de mantenimiento por tipo de equipo
 - Eficiencia operativa del proceso de alistamiento
-- Equipos subutilizados o estancados
+- Equipos subutilizados y estancados
 - Actividades de mantenimiento que generan mayor gasto
 
 Para lograrlo se desarrolló un dashboard interactivo que permite monitorear los indicadores clave del proceso de mantenimiento.
