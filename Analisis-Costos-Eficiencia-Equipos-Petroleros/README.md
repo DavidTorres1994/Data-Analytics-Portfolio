@@ -75,7 +75,7 @@ El análisis permitió identificar que:
 
 - Un pequeño número de actividades concentra la mayor parte del costo total de mantenimiento.
 - Algunos tipos de equipos presentan costos promedio significativamente superiores al resto.
-- Existe un porcentaje relevante de equipos subutilizados, lo que reduce la eficiencia operativa.
+- Existe un porcentaje relevante de equipos "estancados", lo que reduce la eficiencia operativa.
 - La baja rotación de ciertos equipos tiene un impacto directo en la rentabilidad del inventario.
 
 ---
