@@ -106,7 +106,7 @@ Esto sugiere que estos equipos tienen **mayor utilización operativa dentro de l
 
 ### Equipos estancados
 
-El análisis muestra que **36 equipos intervenidos no alcanzaron el estado de alistamiento**, generando costos de mantenimiento sin traducirse inmediatamente en disponibilidad operativa.
+El análisis muestra que **36 equipos intervenidos no alcanzaron el estado final de alistado**, generando costos de mantenimiento sin traducirse inmediatamente en disponibilidad operativa.
 
 Reducir este porcentaje representa una oportunidad para:
 
