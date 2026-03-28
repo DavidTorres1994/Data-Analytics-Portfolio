@@ -2,7 +2,9 @@
 
 Dashboard desarrollado para analizar los costos asociados al proceso de alistamiento de equipos utilizados en operaciones petroleras.
 
-![Dashboard](images/dashboard_preview.png)
+## Vista del dashboard
+
+![Dashboard Power BI](images/dashboard_preview.png)
 
 ## Descripción del proyecto
 
@@ -75,6 +77,69 @@ El análisis permitió identificar que:
 - Algunos tipos de equipos presentan costos promedio significativamente superiores al resto.
 - Existe un porcentaje relevante de equipos subutilizados, lo que reduce la eficiencia operativa.
 - La baja rotación de ciertos equipos tiene un impacto directo en la rentabilidad del inventario.
+
+---
+
+## Resultados del análisis operativo
+
+Durante el periodo analizado se registraron **133 equipos intervenidos** dentro del proceso de mantenimiento.
+
+De estos:
+
+- **97 equipos lograron completarse y quedar en estado alistado**
+- **36 equipos permanecieron estancados dentro del proceso**
+
+Esto representa aproximadamente **un 27% de equipos estancados**, lo que evidencia oportunidades de mejora en la eficiencia del proceso de mantenimiento.
+
+### Rotación de equipos
+
+En total se registraron **256 alistamientos durante el año**, correspondientes a **97 equipos distintos**.
+
+Esto implica que, en promedio, **cada equipo alistado pasó por mantenimiento aproximadamente 2.6 veces durante el año**.
+
+Los equipos que presentaron **mayor rotación de alistamientos** fueron:
+
+- **Frac Tank Limpio**
+- **Catch Tank**
+
+Esto sugiere que estos equipos tienen **mayor utilización operativa dentro de la flota**, requiriendo intervenciones más frecuentes para mantenerse disponibles para alquiler.
+
+### Equipos estancados
+
+El análisis muestra que **36 equipos intervenidos no alcanzaron el estado de alistamiento**, generando costos de mantenimiento sin traducirse inmediatamente en disponibilidad operativa.
+
+Reducir este porcentaje representa una oportunidad para:
+
+- mejorar la eficiencia del proceso de mantenimiento
+- aumentar la disponibilidad de equipos
+- optimizar el uso de los recursos de mantenimiento
+
+---
+
+## Recomendaciones operativas
+
+A partir del análisis de los costos y la utilización de los equipos, se identificaron oportunidades de mejora para el año 2026:
+
+**Optimización del uso de pintura**
+
+La aplicación de pintura representa una actividad con un peso significativo dentro de los costos de mantenimiento.  
+Se recomienda evaluar el uso de **recubrimientos internos de mayor durabilidad**, lo cual podría reducir la frecuencia de intervención anual y generar **ahorros estimados de hasta 77 millones de pesos anuales**.
+
+**Reducción de equipos estancados**
+
+Se recomienda monitorear de manera continua los equipos que permanecen en estado de intervención sin llegar a alistarse.  
+Reducir este porcentaje permitiría disminuir costos improductivos, con un potencial ahorro estimado de **37 millones de pesos anuales**.
+
+**Optimización de la flota de Frac Tank Retorno**
+
+Dentro de los equipos subutilizados, el **Frac Tank Retorno representa más del 70% de la pérdida total identificada**.
+
+Se sugieren dos alternativas:
+
+- buscar proyectos que incrementen su utilización y generen mayores ingresos
+- optimizar el tamaño de la flota reduciendo equipos con baja rotación
+
+Una estrategia conservadora de optimización podría generar **ahorros cercanos a 44 millones de pesos anuales**, mejorar la rotación de equipos y reducir costos operativos en aproximadamente **7%**.
 
 ---
 
